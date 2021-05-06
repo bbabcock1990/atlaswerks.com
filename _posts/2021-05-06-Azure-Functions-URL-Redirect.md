@@ -30,6 +30,7 @@ Azure Functions are defined by Microsoft as the following:
 Simply put, Azure Functions allow us to write code without worrying about the underlying hardware on which the code runs on.
 
 </span>
+
 ---
 
 ## Implementation
