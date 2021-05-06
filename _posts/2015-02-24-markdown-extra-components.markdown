@@ -1,16 +1,14 @@
 ---
-title: "Markdown Extra Components"
+title: "Using Azure Funtions To Redirect URLs"
 layout: post
-date: 2016-02-24 22:48
+date: 2021-05-06 08:00
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
-- markdown
-- components
-- extra
+- azure
 category: blog
-author: jamesfoster
-description: Markdown summary with different options
+author: brandonbabcock
+description: Using Azure Funtions to redirect URLs
 ---
 
 ## Summary:
