@@ -61,6 +61,10 @@ Function App Proxy URL is Redirected to:
 
 ![AzureFunction05](../assets/images/az_function_redirect08.jpg)
 
+Now we must updated our DNS provider with a CNAME recording pointing to the Function App Proxy URL.
+
+![AzureFunction05](../assets/images/az_function_redirect06.jpg)
+
 ---
 ## Results
 
