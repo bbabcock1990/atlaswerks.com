@@ -27,9 +27,7 @@ Azure Functions are defined by Microsoft as the following:
 
 *"Azure Functions is a cloud service available on-demand that provides all the continually-updated infrastructure and resources needed to run your applications. You focus on the pieces of code that matter most to you, and Functions handles the rest"*
 
-Simply put, Azure Functions allow us to write code without worrying about the underlying hardware on which the code runs on.
-
-</span>
+Simply put, Azure Functions allow us to write code without worrying about the underlying hardware on which the code runs on.</span>
 
 ---
 
