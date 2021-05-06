@@ -7,3 +7,6 @@ title: Atlas Werks
 description: Azure Cloud Snippets
 baseurl:      ""
 locale:       "en"
+
+# Markdown
+markdown: kramdown
