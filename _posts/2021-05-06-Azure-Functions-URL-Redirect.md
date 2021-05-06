@@ -27,7 +27,7 @@ Azure Functions are defined by Microsoft as the following:
 
 *"Azure Functions is a cloud service available on-demand that provides all the continually-updated infrastructure and resources needed to run your applications. You focus on the pieces of code that matter most to you, and Functions handles the rest"*
 
-Simply put, Azure Functions allow us to write code without worrying about the underlying hardware on which the code runs on.
+Simply put, Azure Functions allow us to write code without worrying about the underlying hardware on which the code runs on. However, we wont be writing any code, so dont worry! This will be a simple click setup configuration!
 
 ---
 
@@ -41,7 +41,17 @@ Make sure to set the pricing tier to *Consumption*.
 
 ![AzureFunction02](../assets/images/az_function_redirect02.jpg)
 
-Once deploy, navigate to the Function App and select the *Proxies* blade.
+Once deployed, navigate to the Function App and select the *Proxies* blade.
+
+![AzureFunction03](../assets/images/az_function_redirect03.jpg)
+
+Create a new proxy configuration with the following settings (make sure to update your backend url):
+
+![AzureFunction04](../assets/images/az_function_redirect04.jpg)
+
+Hit **Save**, and take note of the generated URL. You can use this URL to test the redirection of your backend url.
+
+![AzureFunction05](../assets/images/az_function_redirect05.jpg)
 
 ---
 ## Results
