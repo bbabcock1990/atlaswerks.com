@@ -53,6 +53,14 @@ Hit **Save**, and take note of the generated URL. You can use this URL to test t
 
 ![AzureFunction05](../assets/images/az_function_redirect05.jpg)
 
+Testing with URL producings the expected results.
+
+![AzureFunction05](../assets/images/az_function_redirect07.jpg)
+
+Function App Proxy URL is Redirected to:
+
+![AzureFunction05](../assets/images/az_function_redirect08.jpg)
+
 ---
 ## Results
 
