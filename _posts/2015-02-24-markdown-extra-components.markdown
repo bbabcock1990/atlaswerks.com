@@ -12,8 +12,8 @@ description: Using Azure Funtions to redirect URLs
 ---
 #### Table Of Contents
 - [Backgrond](#background)
-- [Implementation ](#implementation)
-- [Results ](#results)
+- [Implementation](#implementation)
+- [Results](#results)
 ---
 
 ## Background
