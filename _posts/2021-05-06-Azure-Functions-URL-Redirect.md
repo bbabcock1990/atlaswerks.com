@@ -19,9 +19,9 @@ description: Using Azure Funtions to redirect URLs
 
 ## Background
 
-<span class="background"><p>Recently I was tasked with finding a cloud native solution that would allow incoming URL requests to be redirected to another URL destination. The cloud native solution had to be cost effective, require minimal configuration, and handle hundreds of request per day. 
+<span class="background">Recently I was tasked with finding a cloud native solution that would allow incoming URL requests to be redirected to another URL destination. The cloud native solution had to be cost effective, require minimal configuration, and handle hundreds of request per day. 
 
-Enter Azure Functions.
+Enter **Azure Functions**.
 
 Azure Functions are defined by Microsoft as the following:
 
@@ -34,18 +34,17 @@ Simply put, Azure Functions allow us to write code without worrying about the un
 
 ## Implementation
 
-<span class="implementation"><p>
+<span class="implementation">
+
 To begin, deploy an Function App from the Azure portal using .Net core.
 
-![AzureFunction](/_posts/images/azure_function_url_redirect_01.jpg)
+![AzureFunction01](/_posts/images/azure_function_url_redirect_01.jpg)
 
 Make sure to set the pricing tier to *Consumption*.
 
-![AzureFunction](/_posts/images/azure_function_url_redirect_02.jpg)
+![AzureFunction02](/_posts/images/azure_function_url_redirect_02.jpg)
 
 Once deploy, navigate to the Function App and select the *Proxies* blade.
-
-
 
 </span>
 
