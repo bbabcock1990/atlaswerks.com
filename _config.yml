@@ -16,7 +16,7 @@ resume: true
 resume-external: false
 resume-url: assets/files/brandon_babcock_resume.pdf
 
-url: https://www.atlaswerks.com/
+url: https://www.atlaswerks.com
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
