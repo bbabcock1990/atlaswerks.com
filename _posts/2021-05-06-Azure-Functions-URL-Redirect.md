@@ -1,5 +1,5 @@
 ---
-title: "Using Azure Funtions To Redirect URLs"
+title: "Using Azure Functions To Redirect URLs"
 layout: post
 date: 2021-05-06 08:00
 image: /assets/images/markdown.jpg
@@ -8,7 +8,7 @@ tag:
 - azure
 category: blog
 author: brandonbabcock
-description: Using Azure Funtions to redirect URLs
+description: Using Azure Functions to redirect URLs
 ---
 ## Table Of Contents
 - [Backgrond](#background)
