@@ -10,10 +10,11 @@ category: blog
 author: brandonbabcock
 description: Using Azure Funtions to redirect URLs
 ---
-#### Table Of Contents
+## Table Of Contents
 - [Backgrond](#background)
 - [Implementation](#implementation)
 - [Results](#results)
+
 ---
 
 ## Background
@@ -29,11 +30,15 @@ Azure Functions are defined by Microsoft as the following:
 Simply put, Azure Functions allow us to write code without worrying about the underlying hardware on which the code runs on.
 
 </span>
-
 ---
 
-## Implementation 
+## Implementation
+
+<span class="implementation">
+</span>
 
 ---
-## Results 
+## Results
 
+<span class="results">
+</span>
