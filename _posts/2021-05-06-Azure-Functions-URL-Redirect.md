@@ -35,11 +35,11 @@ Simply put, Azure Functions allow us to write code without worrying about the un
 
 <span class="implementation">To begin, deploy an Function App from the Azure portal using .Net core.</span>
 
-![AzureFunction01](/assets/blogimages/azure_function_url_redirect_01.jpg)
+![AzureFunction01](assets/images/az_function_redirect01.jpg)
 
 Make sure to set the pricing tier to *Consumption*.
 
-![AzureFunction02](/assets/blogimages/azure_function_url_redirect_02.jpg)
+![AzureFunction02](assets/images/az_function_redirect02.jpg)
 
 Once deploy, navigate to the Function App and select the *Proxies* blade.
 
