@@ -55,15 +55,27 @@ Hit **Save**, and take note of the generated URL. You can use this URL to test t
 
 Testing with URL producings the expected results.
 
-![AzureFunction05](../assets/images/az_function_redirect07.jpg)
+![AzureFunction07](../assets/images/az_function_redirect07.jpg)
 
 Function App Proxy URL is Redirected to:
 
-![AzureFunction05](../assets/images/az_function_redirect08.jpg)
+![AzureFunction08](../assets/images/az_function_redirect08.jpg)
 
 Now we must updated our DNS provider with a CNAME recording pointing to the Function App Proxy URL.
 
-![AzureFunction05](../assets/images/az_function_redirect06.jpg)
+![AzureFunction06](../assets/images/az_function_redirect06.jpg)
+
+Once complete, and upon navigating to your URL (testredirect.atlaswerks.com in my scenerio), you will find that you are presented with a 404 Error page. This is due to the Function App blocking none authenticated domains. Lets fix this!
+
+![AzureFunction09](../assets/images/az_function_redirect09.jpg)
+
+Navigate to the Function App and select *Custom Domains*.
+
+![AzureFunction10](../assets/images/az_function_redirect10.jpg)
+
+Add your custom domain.
+
+![AzureFunction11](../assets/images/az_function_redirect11.jpg)
 
 ---
 ## Results
