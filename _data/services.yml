@@ -1,0 +1,71 @@
+- title: "Azure architecture & implementation"
+  icon: "cloud"
+  summary: >-
+    Greenfield landing zones, hub-and-spoke networking, identity & governance,
+    and Azure-native application platforms designed against the Cloud Adoption
+    Framework and Well-Architected Framework.
+  bullets:
+    - "Enterprise-scale landing zones (CAF / ALZ)"
+    - "Hub-and-spoke + private connectivity"
+    - "Hybrid identity, Entra ID, conditional access"
+    - "Cost & policy guardrails from day one"
+
+- title: "Cloud migrations & modernization"
+  icon: "arrow-right"
+  summary: >-
+    Lift, shift, refactor, or rebuild — pragmatic moves out of legacy
+    datacenters into Azure with minimal downtime and a roadmap your team
+    can actually own afterwards.
+  bullets:
+    - "Discovery & dependency mapping"
+    - "Wave planning + cutover runbooks"
+    - "Re-platform to PaaS / containers where it pays off"
+    - "BCDR & migration validation"
+
+- title: "Infrastructure as Code"
+  icon: "terminal"
+  summary: >-
+    Terraform and Bicep modules, pipelines, and patterns so changes are
+    reviewed, repeatable, and auditable — not clicked through a portal at
+    2 a.m.
+  bullets:
+    - "Terraform modules + remote state"
+    - "Bicep / ARM for Azure-native shops"
+    - "GitHub Actions / Azure DevOps pipelines"
+    - "Policy-as-Code (Azure Policy, OPA)"
+
+- title: "Identity, security & governance"
+  icon: "shield"
+  summary: >-
+    Entra ID, RBAC, Azure Policy, Defender for Cloud, and Sentinel
+    integrated into a security model that scales without slowing teams
+    down.
+  bullets:
+    - "Entra ID / hybrid identity"
+    - "RBAC + PIM + least-privilege design"
+    - "Defender for Cloud baselines"
+    - "Sentinel ingestion & detections"
+
+- title: "Microsoft CSP — Azure & M365 licensing"
+  icon: "tag"
+  summary: >-
+    Atlas Werks is a Microsoft Cloud Solution Provider. We resell Azure
+    consumption and Microsoft 365 / Dynamics 365 licensing with U.S.-based
+    support — and we actually answer the phone.
+  bullets:
+    - "Azure plan with consolidated invoicing"
+    - "Microsoft 365 / Dynamics 365 / Power Platform"
+    - "Tenant setup & admin handover"
+    - "License rightsizing & renewals"
+
+- title: "Workshops & advisory"
+  icon: "compass"
+  summary: >-
+    Half-day to multi-day sessions for engineering teams: architecture
+    reviews, Terraform bootcamps, landing-zone planning, and "how do we
+    actually do DevOps here" working sessions.
+  bullets:
+    - "Architecture reviews"
+    - "Terraform / Bicep bootcamps"
+    - "Landing zone design workshops"
+    - "Roadmaps you can hand to your CFO"

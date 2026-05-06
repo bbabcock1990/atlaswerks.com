@@ -2,13 +2,12 @@
 title: "Using Azure Functions To Redirect URLs"
 layout: post
 date: 2021-05-06 08:00
-image: /assets/images/markdown.jpg
-headerImage: false
 tag:
 - azure
+- serverless
 category: blog
 author: brandonbabcock
-description: Using Azure Functions to redirect URLs
+description: "How to redirect inbound URLs through Azure Functions Proxies — cost-effective, low-config, no code."
 ---
 ## Table Of Contents
 - [Backgrond](#background)

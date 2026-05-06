@@ -1,0 +1,64 @@
+# NOTE: Brandon — please review titles, dates, and scope. Adjust any wording
+# that doesn't match how you want to describe your current role at Microsoft.
+- role: "Azure Solution Engineer"
+  org: "Microsoft"
+  start: "Recent"
+  end: "Present"
+  current: true
+  bullets:
+    - "Partner with enterprise customers to design, validate, and accelerate Azure adoption."
+    - "Lead technical depth on cloud architecture, identity, networking, and platform engineering."
+
+- role: "Founder & Principal Consultant"
+  org: "Atlas Werks LLC"
+  start: "Side practice"
+  end: "Present"
+  current: true
+  bullets:
+    - "Independent Azure architecture, IaC, and migration engagements."
+    - "Microsoft CSP — Azure consumption and Microsoft 365 licensing with U.S.-based support."
+
+- role: "Cloud Services Architect (Azure)"
+  org: "AHEAD"
+  start: "2019"
+  end: "Recent"
+  bullets:
+    - "Led client workshops, roadmaps, and architecture for Azure migrations and modernization."
+    - "Designed long-term cloud strategies for state-level agencies — cost savings, refactoring, and operational automation."
+    - "Built reusable internal solutions to accelerate client engagements."
+
+- role: "Senior Cloud Engineer (Azure)"
+  org: "AHEAD"
+  start: "2018"
+  end: "2019"
+  bullets:
+    - "Built foundational landing zones — networking, security, identity, operations, governance."
+    - "Operationalized solutions from PoC to production with automation for repeatability."
+    - "Authored cloud best practices, guidelines, and guardrails."
+
+- role: "Cloud Engineer (Azure)"
+  org: "Presidio"
+  start: "2017"
+  end: "2018"
+  bullets:
+    - "Lift-and-shift datacenter migrations with refactoring to native Azure services."
+    - "Designed multi-region hub-and-spoke topologies."
+    - "Implemented BCDR strategies using Azure Site Recovery and Backup."
+
+- role: "Senior Network Engineer"
+  org: "RK Dixon"
+  start: "2013"
+  end: "2017"
+  bullets:
+    - "Designed and migrated client environments to Microsoft 365."
+    - "Hyper-V and VMware deployments across multiple verticals."
+    - "Pre-sales engineering, BOMs, statements of work, and field deployments."
+
+- role: "Senior Systems Engineer"
+  org: "U.S. Marine Corps"
+  start: "2009"
+  end: "2013"
+  bullets:
+    - "Network and systems support for forward-deployed military operations."
+    - "Hardening and security vulnerability testing of classified networks."
+    - "Recognized for deployed configuration of secure routing and firewall infrastructure."

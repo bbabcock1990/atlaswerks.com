@@ -1,0 +1,14 @@
+- name: "Email"
+  url: "mailto:brandon.babcock@atlaswerks.com"
+  icon: "mail"
+  label: "brandon.babcock@atlaswerks.com"
+
+- name: "LinkedIn"
+  url: "https://www.linkedin.com/in/brandonbabcock1990"
+  icon: "linkedin"
+  label: "in/brandonbabcock1990"
+
+- name: "GitHub"
+  url: "https://github.com/bbabcock1990"
+  icon: "github"
+  label: "@bbabcock1990"

@@ -1,0 +1,35 @@
+name: Build site
+
+on:
+  pull_request:
+    branches: [gh-pages]
+  push:
+    branches-ignore: [gh-pages]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build with Jekyll (matches GitHub Pages)
+        run: bundle exec jekyll build --safe --trace
+        env:
+          JEKYLL_ENV: production
+
+      - name: Upload generated site
+        uses: actions/upload-artifact@v4
+        with:
+          name: site
+          path: _site
+          retention-days: 7

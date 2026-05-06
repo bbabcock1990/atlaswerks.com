@@ -1,0 +1,27 @@
+// Minimal Rouge syntax theme tuned for our dark palette.
+// (Pages uses Rouge; classes follow Rouge's CSS class naming.)
+
+.highlight, pre.highlight {
+  background: var(--code-bg);
+  color: var(--code-fg);
+  border-radius: $radius-md;
+  border: 1px solid var(--border);
+  padding: $s-5 $s-6;
+  overflow-x: auto;
+}
+
+.highlight {
+  .c, .ch, .cd, .cm, .cp, .cs, .c1 { color: #6b7280; font-style: italic; }
+  .err { color: #f87171; }
+  .k, .kc, .kd, .kn, .kp, .kr, .kt { color: #a78bfa; }
+  .s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: #34d399; }
+  .nb, .bp { color: $accent; }
+  .nf, .fm { color: $accent; }
+  .nc, .nn { color: #fbbf24; }
+  .na      { color: #67e8f9; }
+  .o, .ow  { color: var(--fg-soft); }
+  .mi, .mf, .il { color: #fbbf24; }
+  .gi { color: #34d399; background: rgba(52,211,153,0.05); }
+  .gd { color: #f87171; background: rgba(248,113,113,0.05); }
+  .gh, .gu { color: var(--fg); font-weight: bold; }
+}

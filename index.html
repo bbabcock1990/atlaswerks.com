@@ -1,4 +1,219 @@
 ---
-layout: page
-title: Home
+layout: home
+title: "Brandon Babcock — Cloud architecture you can actually run"
+description: "Atlas Werks LLC — Brandon Babcock's independent Azure consulting and Microsoft CSP practice. Architecture, Terraform/Bicep, identity, and licensing — built right, the first time."
 ---
+
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-content reveal">
+      <p class="eyebrow">Atlas Werks LLC · Bettendorf, IA</p>
+      <h1>
+        Cloud architecture<br>
+        <span class="accent">built right,</span>
+        the first time.
+      </h1>
+      <p class="hero-sub">
+        I'm Brandon Babcock — Azure architect, Microsoft Solution Engineer
+        by day, U.S. Marine veteran, and the founder of Atlas Werks LLC.
+        I help teams design, automate, and operate the kind of Azure
+        platforms that don't keep you up at night.
+      </p>
+      <div class="hero-actions">
+        <a class="btn btn-primary btn-lg" href="{{ '/contact/' | relative_url }}">Start a project →</a>
+        <a class="btn btn-ghost btn-lg" href="{{ '/services/' | relative_url }}">What I offer</a>
+      </div>
+      <div class="hero-meta">
+        <span><span class="dot" aria-hidden="true"></span> Available for select engagements</span>
+        <span>Microsoft CSP — Azure & M365 licensing</span>
+        <span>Remote across the U.S.</span>
+      </div>
+    </div>
+
+    <aside class="hero-card reveal" aria-hidden="true">
+      <div class="hero-card-header">
+        <div class="avatar" style="background-image:url('{{ '/assets/images/profile.jpg' | relative_url }}')"></div>
+        <div class="who">
+          <strong>brandon@atlaswerks</strong>
+          <span>~/landing-zone</span>
+        </div>
+      </div>
+<pre><span class="c"># 15+ yrs in IT. Marine. Architect.</span>
+<span class="k">module</span> <span class="s">"hub"</span> {
+  <span class="n">source</span>  = <span class="s">"./modules/hub"</span>
+  <span class="n">env</span>     = <span class="s">"prod"</span>
+  <span class="n">region</span>  = <span class="s">"eastus2"</span>
+  <span class="n">cidr</span>    = <span class="s">"10.0.0.0/16"</span>
+}
+
+<span class="c"># Azure landing zones,</span>
+<span class="c"># Terraform &amp; Bicep,</span>
+<span class="c"># Microsoft 365, identity,</span>
+<span class="c"># and CSP licensing.</span></pre>
+    </aside>
+  </div>
+
+  <div class="container">
+    <div class="stats reveal">
+      <div class="stat"><span class="num">15+</span><span class="label">Years in IT</span></div>
+      <div class="stat"><span class="num">2009</span><span class="label">USMC enlisted</span></div>
+      <div class="stat"><span class="num">10+</span><span class="label">Azure / Microsoft certs</span></div>
+      <div class="stat"><span class="num">CSP</span><span class="label">Microsoft partner</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="logo-rail reveal" aria-label="Practice areas">
+      <span>AZURE</span>
+      <span>MICROSOFT 365</span>
+      <span>ENTRA ID</span>
+      <span>TERRAFORM</span>
+      <span>BICEP</span>
+      <span>GITHUB ACTIONS</span>
+      <span>SENTINEL</span>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header-row reveal">
+      <div>
+        <p class="eyebrow">What I offer</p>
+        <h2>Six ways Atlas Werks shows up for you</h2>
+      </div>
+      <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">All services →</a>
+    </div>
+
+    <div class="grid-3">
+      {% for s in site.data.services limit:6 %}
+      <article class="service-card reveal">
+        <span class="card-icon" aria-hidden="true">
+          {% case s.icon %}
+            {% when "cloud" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+            {% when "arrow-right" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            {% when "terminal" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            {% when "shield" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            {% when "tag" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"/><line x1="7" y1="7" x2="7.01" y2="7"/></svg>
+            {% when "compass" %}<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+          {% endcase %}
+        </span>
+        <h3>{{ s.title }}</h3>
+        <p>{{ s.summary | strip_newlines }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header-row reveal">
+      <div>
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects &amp; case studies</h2>
+      </div>
+      <a class="btn btn-ghost" href="{{ '/projects/' | relative_url }}">All projects →</a>
+    </div>
+
+    <div class="grid-3">
+      {% for p in site.data.projects limit:3 %}
+      <article class="card project-card reveal">
+        <div class="project-meta">
+          <span class="client">{{ p.client }}</span>
+          <span class="status">{{ p.status }}</span>
+        </div>
+        <h3>{{ p.title }}</h3>
+        <p>{{ p.summary | strip_newlines }}</p>
+        <div class="project-tags">
+          {% for t in p.tags %}<span class="chip">{{ t }}</span>{% endfor %}
+        </div>
+        {% if p.outcome %}
+        <div class="project-outcome">
+          <strong>Outcome</strong>
+          {{ p.outcome }}
+        </div>
+        {% endif %}
+        {% if p.link != "" %}<a class="project-link" href="{{ p.link | relative_url }}">Read more →</a>{% endif %}
+      </article>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <p class="eyebrow">Selected outcomes</p>
+      <h2>What clients walk away with</h2>
+      <p>Real numbers and named references arrive once Brandon publishes them. Until then, here's the kind of value Atlas Werks engagements deliver.</p>
+    </div>
+
+    <div class="outcomes-grid reveal">
+      <div class="outcome">
+        <span class="outcome-num">01</span>
+        <span class="outcome-title">Enterprise-scale Azure landing zones</span>
+        <span class="outcome-desc">Aligned to CAF / ALZ, with Terraform modules and policy-as-code guardrails the team can extend without me.</span>
+      </div>
+      <div class="outcome">
+        <span class="outcome-num">02</span>
+        <span class="outcome-title">Datacenter exits done with eyes open</span>
+        <span class="outcome-desc">Discovery, dependency mapping, wave planning, and cutover runbooks — not "lift, shift, hope."</span>
+      </div>
+      <div class="outcome">
+        <span class="outcome-num">03</span>
+        <span class="outcome-title">Identity that scales without slowing teams</span>
+        <span class="outcome-desc">Entra ID, Conditional Access, and PIM patterns reviewed against least-privilege real-world workflows.</span>
+      </div>
+      <div class="outcome">
+        <span class="outcome-num">04</span>
+        <span class="outcome-title">Microsoft licensing that actually fits</span>
+        <span class="outcome-desc">CSP-managed Azure consumption and Microsoft 365 licenses, U.S.-based support, no surprise renewals.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header-row reveal">
+      <div>
+        <p class="eyebrow">From the blog</p>
+        <h2>Notes from the field</h2>
+      </div>
+      <a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">All posts →</a>
+    </div>
+
+    <ul class="post-list reveal">
+      {% for post in site.posts limit:5 %}
+      <li>
+        <a class="post-list-item" href="{{ post.url | relative_url }}">
+          <div class="post-list-meta">
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            {% if post.tag %}<span class="tag">{% if post.tag.first %}{{ post.tag.first }}{% else %}{{ post.tag }}{% endif %}</span>{% endif %}
+          </div>
+          <h3 class="post-list-title">{{ post.title }}</h3>
+          {% if post.description %}<p class="post-list-desc">{{ post.description }}</p>{% endif %}
+        </a>
+      </li>
+      {% else %}
+      <li><div class="post-empty">No posts yet — first one is on the way.</div></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="cta reveal">
+      <h2>Looking for an Azure architect who's actually shipped one?</h2>
+      <p>Whether you're standing up your first landing zone, exiting a datacenter, modernizing identity, or just trying to make sense of your Microsoft licensing — let's talk.</p>
+      <div class="cta-actions">
+        <a class="btn btn-primary btn-lg" href="{{ '/contact/' | relative_url }}">Email Brandon →</a>
+        <a class="btn btn-ghost btn-lg" href="https://www.linkedin.com/in/brandonbabcock1990" target="_blank" rel="noopener">Connect on LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>

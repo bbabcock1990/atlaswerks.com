@@ -1,0 +1,48 @@
+- group: "Cloud platforms"
+  items:
+    - "Microsoft Azure"
+    - "Microsoft 365"
+    - "Microsoft Entra ID"
+    - "Azure DevOps"
+    - "GitHub"
+    - "Google Cloud (familiar)"
+
+- group: "Infrastructure as Code"
+  items:
+    - "Terraform"
+    - "Bicep"
+    - "ARM templates"
+    - "Pulumi (familiar)"
+
+- group: "Languages & scripting"
+  items:
+    - "Python"
+    - "PowerShell"
+    - "Bash"
+    - "JavaScript / TypeScript (familiar)"
+    - "Go (learning)"
+
+- group: "Networking & security"
+  items:
+    - "Hub-and-spoke topologies"
+    - "Azure Firewall / NVA"
+    - "ExpressRoute / VPN"
+    - "Private DNS & Private Link"
+    - "RBAC + PIM + Conditional Access"
+    - "Defender for Cloud"
+    - "Microsoft Sentinel"
+
+- group: "Datacenter & virtualization"
+  items:
+    - "VMware"
+    - "Hyper-V"
+    - "Cisco / Meraki networking"
+    - "Nimble Storage"
+
+- group: "DevOps & automation"
+  items:
+    - "GitHub Actions"
+    - "Azure Pipelines"
+    - "Azure Functions"
+    - "Logic Apps"
+    - "Container Apps / AKS"
