@@ -1,0 +1,15 @@
+updated: "2026-05-06"
+location: "Bettendorf, IA"
+focus:
+  - "Helping Microsoft enterprise customers design and accelerate their Azure platforms."
+  - "Building Atlas Werks LLC — independent Azure consulting and Microsoft CSP."
+  - "Refining a reusable Terraform module library for landing zones."
+  - "Writing more — short, useful posts on Azure, Terraform, and identity."
+reading:
+  - "Azure Well-Architected Framework — refresher passes."
+  - "The Phoenix Project — re-read."
+listening:
+  - "The Cloudcast and Azure Friday in the truck."
+notes: >-
+  Inspired by Derek Sivers' /now movement — this page is what I'm focused on
+  right now, and I update it when life moves.

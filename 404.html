@@ -1,14 +1,16 @@
 ---
 layout: default
-permalink: /404.html 
+title: "Page not found"
+permalink: /404.html
 ---
-
-<section class="lost-container">
-  <h1>Uh oh!</h1>
-  <div class="link">
-    <img class="selfie" alt="{{ site.name }}" src="{{ site.url }}/assets/images/error.gif" />
-  </div>
-  <br />
-  <br />
-  <a href="/">Take me home!</a>
+<section class="not-found">
+  <p class="big">404</p>
+  <h1>This page got lost in the cloud.</h1>
+  <p>The page you're looking for doesn't exist, or has moved. Try one of these:</p>
+  <p>
+    <a class="btn btn-primary" href="{{ '/' | relative_url }}">Home</a>
+    <a class="btn btn-ghost" href="{{ '/services/' | relative_url }}">Services</a>
+    <a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a class="btn btn-ghost" href="{{ '/contact/' | relative_url }}">Contact</a>
+  </p>
 </section>

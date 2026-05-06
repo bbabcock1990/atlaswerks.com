@@ -1,0 +1,46 @@
+# NOTE: Brandon — drop in real client names (or "a state agency" /
+# "a regional MSP" if NDA), specifics, and outcome metrics over time.
+# Each project rendered as a card on /projects/.
+
+- title: "State agency Azure landing zone"
+  client: "U.S. state agency"
+  status: "Shipped"
+  tags: ["Azure", "Landing Zone", "Terraform", "Networking"]
+  summary: >-
+    Designed and stood up an enterprise-scale Azure landing zone with hub
+    networking, hybrid identity, policy-as-code guardrails, and a Terraform
+    module library the agency now owns and extends.
+  outcome: "Foundation that supports all subsequent agency workloads."
+  link: ""
+
+- title: "Datacenter exit & re-platform"
+  client: "Mid-market enterprise"
+  status: "Shipped"
+  tags: ["Migration", "Azure", "BCDR"]
+  summary: >-
+    Discovery, wave planning, and execution of a full datacenter exit into
+    Azure — combining lift-and-shift for stable workloads with selective
+    re-platforming to PaaS where it cut cost and toil.
+  outcome: "Closed two physical datacenters and reduced run-state cost."
+  link: ""
+
+- title: "Microsoft 365 tenant rebuild"
+  client: "Regional services firm"
+  status: "Shipped"
+  tags: ["Microsoft 365", "Entra ID", "Identity"]
+  summary: >-
+    Cleaned up a brown-field Microsoft 365 tenant — identity, conditional
+    access, MDM, retention, and licensing rationalization — handed back as
+    a documented, supportable platform.
+  outcome: "Cleaner identity posture and rightsized licensing."
+  link: ""
+
+- title: "Azure Functions URL redirector"
+  client: "Atlas Werks (internal)"
+  status: "Open & blogged"
+  tags: ["Azure Functions", "Serverless"]
+  summary: >-
+    Lightweight, no-code URL redirector built on Azure Functions Proxies —
+    cost-effective, low-config, and handles hundreds of requests per day.
+  outcome: "Used to route atlaswerks.com short links."
+  link: "/Azure-Functions-URL-Redirect/"

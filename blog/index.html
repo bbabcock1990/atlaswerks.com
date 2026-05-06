@@ -1,0 +1,28 @@
+---
+layout: page
+title: "Blog"
+subtitle: "Short, useful posts on Azure, Terraform, identity, and the realities of running cloud infrastructure."
+eyebrow: "Notes"
+permalink: /blog/
+---
+
+<ul class="post-list reveal">
+  {% for post in site.posts %}
+  <li>
+    <a class="post-list-item" href="{{ post.url | relative_url }}">
+      <div class="post-list-meta">
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        {% if post.tag %}<span class="tag">{% if post.tag.first %}{{ post.tag.first }}{% else %}{{ post.tag }}{% endif %}</span>{% endif %}
+      </div>
+      <h3 class="post-list-title">{{ post.title }}</h3>
+      {% if post.description %}<p class="post-list-desc">{{ post.description }}</p>{% endif %}
+    </a>
+  </li>
+  {% else %}
+  <li><div class="post-empty">No posts yet — first one is on the way.</div></li>
+  {% endfor %}
+</ul>
+
+<p class="muted small" style="margin-top: 2rem;">
+  Subscribe via <a href="{{ '/feed.xml' | relative_url }}">RSS</a>.
+</p>

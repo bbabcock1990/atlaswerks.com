@@ -1,0 +1,65 @@
+// ─── Layout primitives ───────────────────────────────────────────────────────
+.container {
+  width: 100%;
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: 0 $s-6;
+  @media (min-width: 768px) { padding: 0 $s-8; }
+}
+.container-narrow {
+  width: 100%;
+  max-width: $container-narrow;
+  margin: 0 auto;
+  padding: 0 $s-6;
+  @media (min-width: 768px) { padding: 0 $s-8; }
+}
+
+.page-main { min-height: 70vh; }
+
+.page {
+  max-width: $container-narrow;
+  margin: 0 auto;
+  padding: $s-16 $s-6 $s-20;
+  @media (min-width: 768px) { padding: $s-20 $s-8 $s-24; }
+}
+.page-wide {
+  max-width: $container-max;
+  margin: 0 auto;
+  padding: $s-16 $s-6 $s-20;
+  @media (min-width: 768px) { padding: $s-20 $s-8 $s-24; }
+}
+
+.page-header {
+  margin-bottom: $s-12;
+  text-align: left;
+  .page-title { font-size: clamp(2rem, 4vw, 3rem); }
+  .page-subtitle { color: var(--fg-muted); font-size: $fz-md; max-width: 60ch; margin-top: $s-3; }
+}
+
+section.section {
+  padding: $s-16 0;
+  @media (min-width: 768px) { padding: $s-20 0; }
+}
+
+.section-header {
+  display: flex;
+  flex-direction: column;
+  gap: $s-2;
+  margin-bottom: $s-10;
+  max-width: 720px;
+  h2 { font-size: clamp(1.75rem, 3vw, 2.25rem); margin: 0; }
+  p  { color: var(--fg-muted); font-size: $fz-md; margin: 0; }
+}
+.section-header-row {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: $s-4;
+  margin-bottom: $s-10;
+}
+
+// Reusable grid helpers
+.grid { display: grid; gap: $s-6; }
+.grid-2 { @extend .grid; grid-template-columns: 1fr; @media (min-width: 720px) { grid-template-columns: repeat(2, 1fr); } }
+.grid-3 { @extend .grid; grid-template-columns: 1fr; @media (min-width: 720px) { grid-template-columns: repeat(2, 1fr); } @media (min-width: 1000px) { grid-template-columns: repeat(3, 1fr); } }
