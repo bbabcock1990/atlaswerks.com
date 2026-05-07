@@ -29,7 +29,7 @@ assets/
   images/            # profile + post images + favicons
   files/             # resume PDF
 index.html           # home
-about.md services.md projects.md certifications.md experience.md now.md contact.md
+about.md services.md projects.md experience.md now.md contact.md
 blog/index.html      # blog index
 404.html             # custom 404
 CNAME                # custom domain
